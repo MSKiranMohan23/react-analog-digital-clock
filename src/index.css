@@ -20,12 +20,14 @@ body {
     }
 
     .analog-clock {
-      width: 100px;
-      height: 100px;
-      border: solid 2px #000;
+      width: 127px;
+      height: 113px;
       border-radius: 50%;
       position: relative;
-      background: #e9c3c3;
+      background-image: url('../src/images/clock.png');
+      background-repeat: no-repeat;
+      background-size: 120px 98px;
+
 
       .dial {
         position: absolute;

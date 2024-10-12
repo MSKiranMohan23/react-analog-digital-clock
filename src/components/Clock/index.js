@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+
 const Clock = () => {
   const [seconds, setSeconds] = useState(0);
   const [minutes, setMinutes] = useState(0);
